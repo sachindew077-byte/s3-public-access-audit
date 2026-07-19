@@ -106,21 +106,11 @@ Attach the following inline policy to the Lambda execution role.
             "Action": [
                 "sns:Publish"
             ],
-            "Resource": "arn:aws:sns:<region>:<account-id>:<topic-name>"
+            "Resource": "arn:aws:sns:ap-sout-1:959993795808:arn:aws:sns:us-east-1:959993795808:aws-controltower-SecurityNotifications"
         }
     ]
 }
 ```
-
-Replace:
-
-```text
-<region>
-<account-id>
-<topic-name>
-```
-
-with your SNS topic details.
 
 ---
 
